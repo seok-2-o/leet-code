@@ -5,7 +5,7 @@ class Solution {
     var starting = 0
     var curr = 0
         
-    for (idx in 0..gas.size - 1) {
+    for (idx in 0 .. gas.size - 1) {
         curr += gas[idx] - cost[idx]
         total += gas[idx] - cost[idx]
         if (curr < 0) {
